@@ -1,0 +1,175 @@
+* {
+	cursor: default;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-color: #002;
+	font-family: Verdana;
+}
+
+#container {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#game {
+	width: 800px;
+	height: 560px;
+	margin: 0 auto;
+	margin-top: 40px;
+	color: white;
+	background-color: #27ae60;
+}
+
+#tdgame-loading {
+	float: left;
+	width: 800px;
+	height: 560px;
+	text-align: center;
+	line-height: 560px;
+	font-size: 32px;
+}
+
+#tdgame-paused {
+	position: absolute;
+	float: left;
+	width: 800px;
+	height: 480px;
+	text-align: center;
+	line-height: 240px;
+	font-size: 32px;
+	display: none;
+	background-color: #27ae60;
+	z-index: 1000;
+	opacity: 0.8;
+}
+
+#tdgame-paused p {
+	margin: 0;
+	padding: 0;
+}
+
+#tdgame-screen {
+	float: left;
+	width: 800px;
+	height: 480px;
+	display: none;
+}
+
+#tdgame-ui {
+	float: left;
+	width: 800px;
+	height: 70px;
+	text-align: center;
+	display: none;
+	color: white;
+	background-color: #34495e;
+	border-top: 10px solid #0D2B49;
+}
+
+#tdgame-screen canvas {
+	position: absolute;
+}
+
+#tdgame-ui span {
+	display: block;
+}
+
+#ui-resources {
+	float: left;
+	width: 190px;
+	height: 70px;
+	border-right: 10px solid #0D2B49;
+}
+
+#ui-waves {
+	float: left;
+	width: 100px;
+	height: 70px;
+	line-height: 35px;
+	border-right: 10px solid #0D2B49;
+}
+
+#ui-controls {
+	float: left;
+	width: 90px;
+	height: 70px;
+	line-height: 70px;
+	border-right: 10px solid #0D2B49;
+}
+
+#ui-towers {
+	float: left;
+	width: 390px;
+	height: 70px;
+}
+
+
+
+#ui-lives {
+	width: 200px;
+	height: 35px;
+	line-height: 35px;
+}
+
+#ui-credits {
+	width: 200px;
+	height: 35px;
+	line-height: 35px;
+}
+
+button {
+	color: white;
+	background-color: #1abc9c;
+	border: 0px;
+}
+
+#tdgame-paused button {
+	margin: 0 auto;
+}
+
+
+#tower-basic {
+	width: 30px;
+	height: 30px;
+	background-color: #f1c40f;
+	border: 0px;
+	border-radius: 32px;
+}
+
+#tower-rapid {
+	width: 30px;
+	height: 30px;
+	background-color: #c0392b;
+	border: 0px;
+	border-radius: 32px;
+}
+
+#tower-sniper {
+	width: 30px;
+	height: 30px;
+	background-color: #9b59b6;
+	border: 0px;
+	border-radius: 32px;
+}
+
+#tower-freezer {
+	width: 30px;
+	height: 30px;
+	background-color: #3498db;
+	border: 0px;
+	border-radius: 32px;
+}
+
+
+

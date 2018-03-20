@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>akhad td</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="game.css">
+	</head>
+	<body>
+		<div id="container">
+			<div id="game">
+				<div id="tdgame-loading">LOADING GAME...</div>
+				<div id="tdgame-paused" onclick="unPause()">
+					<p>GAME PAUSED</p>
+					<p>click to resume</p>
+				</div>
+				<div id="tdgame-screen"></div>
+				<div id="tdgame-ui">
+					<div id="ui-resources">
+						<span id="ui-lives">lives</span>
+						<span id="ui-credits">credits</span>
+					</div>
+					
+					<div id="ui-waves">waves</div>
+				
+					<div id="ui-controls">
+						<button id="spawn-wave" onclick="spawnEnemyWave()">start!</button>
+					</div>
+					
+					<div id="ui-towers">
+						<div>towers:</div>
+						<button id="tower-basic" onclick="selectTower(towers.Basic)"></button>
+						<button id="tower-rapid" onclick="selectTower(towers.Rapid)"></button>
+						<button id="tower-sniper" onclick="selectTower(towers.Sniper)"></button>
+						<button id="tower-freezer" onclick="selectTower(towers.Freezer)"></button>
+					</div>
+	
+				</div>
+			</div>
+		</div>
+		<!-- libs -->
+		<script src="libs/fpsmeter.js"></script>
+		<script src="libs/canvasquery.js"></script>
+		<script src="libs/playground.js"></script>
+		<script src="libs/randomColor.js"></script>
+		<script src="libs/tweener.js"></script>
+		<!-- game files -->
+		<script src="js/levels.js"></script>
+		
+		<script src="js/helpers.js"></script>
+		<script src="js/timer.js"></script>
+		<script src="js/messages.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/setup.js"></script>
+		<script src="js/level.js"></script>
+		<script src="js/bullets.js"></script>
+		<script src="js/enemies.js"></script>
+		<script src="js/towers.js"></script>
+		<script src="js/effects.js"></script>
+		<script src="js/gamestates.js"></script>
+	</body>
+</html>
